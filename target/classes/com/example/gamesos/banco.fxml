@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="745.0" prefWidth="955.0" style="-fx-border-width: 10px;" styleClass="bg" stylesheets="@play.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamesos.Controller">
+    <children>
+        <AnchorPane fx:id="banco" disable="true" layoutX="189.0" layoutY="125.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="578.0" prefWidth="578.0" styleClass="bgVien" AnchorPane.leftAnchor="189.0" AnchorPane.topAnchor="125.0">
+            <children>
+            <Button fx:id="o01" layoutX="94.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o02" layoutX="174.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o03" layoutX="254.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o04" layoutX="334.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o05" layoutX="414.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o06" layoutX="494.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o10" layoutX="14.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o11" layoutX="94.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o12" layoutX="174.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o13" layoutX="254.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o14" layoutX="334.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o15" layoutX="414.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o16" layoutX="494.0" layoutY="94.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o21" layoutX="94.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o22" layoutX="174.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o23" layoutX="254.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o24" layoutX="334.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o25" layoutX="414.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o20" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o26" layoutX="494.0" layoutY="174.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o30" layoutX="14.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o31" layoutX="94.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o32" layoutX="174.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o33" layoutX="254.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o34" layoutX="334.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o35" layoutX="414.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o36" layoutX="494.0" layoutY="254.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o41" layoutX="94.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o42" layoutX="174.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o43" layoutX="254.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o44" layoutX="334.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o45" layoutX="414.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o40" layoutX="14.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o46" layoutX="494.0" layoutY="334.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o50" layoutX="14.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o51" layoutX="94.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o52" layoutX="174.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o53" layoutX="254.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o54" layoutX="334.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o55" layoutX="414.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o56" layoutX="494.0" layoutY="414.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o60" layoutX="14.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o61" layoutX="94.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o62" layoutX="174.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o63" layoutX="254.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o64" layoutX="334.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o65" layoutX="414.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o66" layoutX="494.0" layoutY="494.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            <Button fx:id="o00" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#DanhCo" prefHeight="70.0" prefWidth="70.0" styleClass="button1" stylesheets="@play.css" />
+            </children>
+        </AnchorPane>
+      <AnchorPane layoutX="790.0" layoutY="193.0" prefHeight="170.0" prefWidth="130.0" styleClass="bgPlayer2">
+         <children>
+            <ImageView disable="true" fitHeight="114.0" fitWidth="111.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" styleClass="bgAvatar">
+               <image>
+                  <Image url="@p2.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="diem2" alignment="CENTER" layoutX="42.0" layoutY="133.0" prefHeight="34.0" prefWidth="56.0" styleClass="bgVienlabel" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="111.0" fitWidth="542.0" layoutX="263.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_exit" layoutX="806.0" layoutY="487.0" mnemonicParsing="false" onAction="#toMenu" prefHeight="10.0" prefWidth="85.0" styleClass="btn_bg">
+         <font>
+            <Font name="Courier New Bold" size="41.0" />
+         </font>
+          <tooltip><Tooltip text="Tro ve man hinh chinh!" /></tooltip>
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btn_fr" layoutX="42.0" layoutY="487.0" mnemonicParsing="false" onAction="#toPlay" prefHeight="10.0" prefWidth="85.0" styleClass="btn_bg">
+         <font>
+            <Font name="Courier New Bold" size="41.0" />
+         </font>
+          <tooltip><Tooltip text="Click de tao moi ban co!" /></tooltip>
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@refresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fx:id="lgp1" fitHeight="45.0" fitWidth="160.0" layoutX="16.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dp1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lgp2" fitHeight="45.0" fitWidth="160.0" layoutX="779.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@dp2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="26.0" layoutY="194.0" prefHeight="170.0" prefWidth="139.0" styleClass="bgPlayer1">
+         <children>
+            <ImageView disable="true" fitHeight="114.0" fitWidth="111.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" styleClass="bgAvatar">
+               <image>
+                  <Image url="@p1.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="diem1" alignment="CENTER" layoutX="42.0" layoutY="131.0" prefHeight="34.0" prefWidth="56.0" styleClass="bgVienlabel" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="p2win" layoutX="292.0" layoutY="208.0" prefHeight="222.0" prefWidth="392.0" visible="false">
+         <children>
+            <ImageView fitHeight="264.0" fitWidth="313.0" layoutX="28.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@nenwin1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="179.0" fitWidth="250.0" layoutX="95.0" layoutY="22.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CUP.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="160.0" layoutX="105.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dp2.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="diem22" alignment="CENTER" layoutX="157.0" layoutY="155.0" prefHeight="34.0" prefWidth="56.0" styleClass="bgVienlabel" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@win.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="p1win" layoutX="302.0" layoutY="218.0" prefHeight="222.0" prefWidth="392.0" visible="false">
+         <children>
+            <ImageView fitHeight="264.0" fitWidth="313.0" layoutX="28.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@nenwin1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="179.0" fitWidth="250.0" layoutX="95.0" layoutY="22.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CUP.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="160.0" layoutX="105.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dp1.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="diem11" alignment="CENTER" layoutX="157.0" layoutY="149.0" prefHeight="34.0" prefWidth="56.0" styleClass="bgVienlabel" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@win.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="hoa" layoutX="302.0" layoutY="218.0" prefHeight="222.0" prefWidth="392.0" visible="false">
+         <children>
+            <ImageView fitHeight="264.0" fitWidth="313.0" layoutX="28.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@nenwin1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="179.0" fitWidth="250.0" layoutX="95.0" layoutY="22.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CUP.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="diem111" alignment="CENTER" layoutX="157.0" layoutY="149.0" prefHeight="34.0" prefWidth="56.0" styleClass="bgVienlabel" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="160.0" layoutX="115.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hoa.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="139.0" layoutX="196.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dp2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="139.0" layoutX="55.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dp1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="chon" layoutX="311.0" layoutY="246.0" prefHeight="197.0" prefWidth="372.0" visible="false">
+         <children>
+            <AnchorPane focusTraversable="true" layoutX="5.0" layoutY="24.0" prefHeight="170.0" prefWidth="336.0" styleClass="bgVien2" stylesheets="@play.css">
+               <children>
+                  <Button fx:id="addS" layoutX="11.0" layoutY="10.0" mnemonicParsing="false" onAction="#add" prefHeight="150.0" prefWidth="150.0" styleClass="button2" stylesheets="@play.css" text="S">
+                     <font>
+                        <Font name="Cambria Bold" size="70.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="addO" layoutX="175.0" layoutY="10.0" mnemonicParsing="false" onAction="#add" prefHeight="150.0" prefWidth="150.0" styleClass="button2" stylesheets="@play.css" text="O">
+                     <font>
+                        <Font name="Cambria Bold" size="70.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Button layoutX="308.0" mnemonicParsing="false" onAction="#tatchon" prefHeight="55.0" prefWidth="56.0" styleClass="button3">
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@daux.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="volOn" layoutX="841.0" layoutY="125.0" mnemonicParsing="false" onAction="#stopS">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@spk.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="volOff" layoutX="841.0" layoutY="125.0" mnemonicParsing="false" onAction="#playS" visible="false">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@mute.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btn_st" layoutX="392.0" layoutY="326.0" mnemonicParsing="false" onAction="#start" prefHeight="93.0" prefWidth="173.0" styleClass="button3" stylesheets="@play.css" text="START">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

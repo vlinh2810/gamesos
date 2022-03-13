@@ -1,0 +1,104 @@
+.bg{
+    -fx-border-width: solid 5px;
+    -fx-background-image: url("nengo.png");
+}
+
+.buttonExit{
+    -fx-background-color: white;
+    -fx-background-radius: 0px;
+    -fx-border-width: 0 0 0 0;
+}
+
+.bgVien{
+    -fx-background-color: #141e36;
+    -fx-background-radius: 20px;
+}
+.bgVien2{
+    -fx-background-color: #008da3;
+    -fx-background-radius: 10px;
+}
+.bgVienlabel{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-color: #000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.bgPlayer1{
+    -fx-border-color: #b80000;
+    -fx-border-width: 7px;
+    -fx-border-radius: 5px;
+}
+.bgPlayer2{
+    -fx-border-color: #2187ed;
+    -fx-border-width: 7px;
+    -fx-border-radius: 5px;
+}
+
+.bgAvatar{
+    -fx-background-radius: 20px;
+}
+
+.button1 {
+    -fx-background-color:  #f0fafa;
+    -fx-background-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+
+}
+.button2 {
+    -fx-background-color: #f0fafa;
+    -fx-background-radius: 10px;
+
+}
+.button3 {
+    -fx-background-color: #f0fafa;
+    -fx-background-radius: 360px;
+    -fx-border-color: #008da3;
+    -fx-border-width: 5px;
+    -fx-border-radius: 360px;
+
+}
+.btn_bg {
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 10px;
+    -fx-border-color: #aaa;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+
+}
+.tf1 {
+           -fx-background-color: #fafafa;
+           -fx-background-radius: 5px;
+           -fx-border-color: #000;
+           -fx-border-width: 1px;
+           -fx-border-radius: 5px;
+           -fx-text-fill: black;
+           -fx-font-weight: bold;
+           -fx-font-size: 30px;
+           -fx-font-family: "Courier New", Courier, monospace;
+}
+.label1{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 45px;
+    -fx-font-family: "Courier New", Courier, monospace;
+}
+.btnPlayOn{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+    -fx-background-color: #fafafa;
+    -fx-background-radius: 5px;
+    -fx-border-color: #000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Courier New", Courier, monospace;
+}
+.btnPlayOn:hover{
+    -fx-background-color: #999999;
+}
+
+
